@@ -357,7 +357,7 @@ with dpg.window(no_resize=True, tag="Main_window"):
             dpg.bind_item_font(dpg.add_text(default_value="Satisfactory\ncalculator"), font3)
             dpg.add_button(label="Debag", width=171, callback=TEMPDEBUG, show=False) #Button debug
         with dpg.group(horizontal=True, horizontal_spacing=5):
-            dpg.bind_item_font(dpg.add_button(label="Help", width=171, callback=buttonhelp), font1)
+            dpg.bind_item_font(dpg.add_button(label="Creator", width=171, callback=buttonhelp), font1)
             dpg.bind_item_font(dpg.add_combo((), width=387, default_value="Select item: ", tag="Combobox"), font1)
             dpg.bind_item_font(dpg.add_button(label="Clear", width=98, callback=clear_node), font1)
         dpg.add_separator()
